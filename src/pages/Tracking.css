@@ -1,0 +1,123 @@
+/* General container styling */
+.container {
+    padding: 16px;
+    min-height: 100vh;
+    margin-bottom: 40px;
+    color: #001F3F;
+  }
+  
+  /* Headings */
+  .heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 28px;
+    text-align: center;
+  }
+  
+  .subheading {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+
+  .progress-head{
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  /* Box Component */
+  .box h4 {
+    margin: 0;
+    margin-bottom: 6px;
+  }
+  
+  .box p {
+    margin: 0;
+    color: #2563eb; /* blue-600 */
+  }
+
+  .box {
+    background-color: #e5e7eb87; /* gray-200 */
+    border-radius: 8px;
+    padding: 10px 16px;
+  }
+ 
+  
+  /* Progress bar container */
+  .progress-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 16px;
+  }
+  
+  .progress-bar-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: bold;
+  }
+
+  .progress-bar {
+    width: 100%;
+    height: 12px;
+    border: 1px solid transparent;
+    background-color: #d1d5db; /* gray-300 */
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .progress-fill {
+    position: absolute;
+    background-color: #2563eb; /* blue-600 */
+    width: 60%;
+    height: 12px;
+    border-radius: 8px;
+  }
+  
+  .status-text {
+    margin-top: 2px;
+    color: #2563eb; /* blue-600 */
+  }
+  
+  /* Section */
+  .section {
+    margin: 24px 0;
+  }
+  
+  .section-heading {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  /* Button styling */
+  .button {
+    font-weight: 600;
+    margin-top: 16px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 8px 40px;
+    border-radius: 6px;
+    transition: all;
+    transition-duration: 200ms;
+  }
+  
+  .button:hover {
+    background-color: #dce0e9; /* hover:bg-gray-200 */
+}
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .center-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+  }
+  

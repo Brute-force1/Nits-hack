@@ -1,18 +1,14 @@
 import './App.css';
 import {Routes, Route} from "react-router-dom"
+import Trackingpage from './pages/Tracking';
 
-function Header(){
-  return (
-    <p>This is a header</p>
-  )
-}
 
 function App() {
   return (
     <div className="App">
-      <p>This is a home page</p>
       <Routes>
-        <Route path='/header' element={<Header />}></Route>
+
+        <Route path='/tracking' element={<Trackingpage />}></Route>
       </Routes>
     </div>
   );
