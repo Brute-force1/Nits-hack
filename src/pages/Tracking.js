@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Tracking.css"
 import kuvio from "../assests/Kuvio 1 Ruutuaika EN.svg"
-import DashboardHeader from '../components/DashboardHeader';
+
 
 const Box = ({ headerText, text }) => {
   return (
@@ -15,7 +15,6 @@ const Box = ({ headerText, text }) => {
 const Trackingpage = () => {
   return (
     <>
-        <DashboardHeader />
         
         <div className="container">
       <h2 className="heading">Welcome Ella!</h2>
