@@ -101,6 +101,7 @@
     padding: 8px 40px;
     border-radius: 6px;
     transition: all;
+    width: auto;
     transition-duration: 200ms;
   }
   
