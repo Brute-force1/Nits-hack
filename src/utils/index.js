@@ -2,14 +2,17 @@ export const navbar = [
     {
         id: 1,
         text: "Home",
+        link: "/"
     },
     {
         id: 2,
-        text: "Games",
+        text: "Tracking",
+        link: "/tracking"
     },
     {
         id: 3,
-        text: "Challenges"
+        text: "Reward",
+        link: "/reward"
     },
     {
         id: 4,
