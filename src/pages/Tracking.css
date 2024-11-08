@@ -102,6 +102,7 @@
     border-radius: 6px;
     transition: all;
     width: auto;
+    height: auto;
     transition-duration: 200ms;
   }
   
