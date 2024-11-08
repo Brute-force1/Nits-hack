@@ -7,14 +7,14 @@
   }
   
   /* Headings */
-  .heading {
+  .heading1 {
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 28px;
     text-align: center;
   }
   
-  .subheading {
+  .subheading2 {
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 18px;
@@ -26,17 +26,17 @@
   }
   
   /* Box Component */
-  .box h4 {
+  .box1 h4 {
     margin: 0;
     margin-bottom: 6px;
   }
   
-  .box p {
+  .box1 p {
     margin: 0;
     color: #2563eb; /* blue-600 */
   }
 
-  .box {
+  .box1 {
     background-color: #e5e7eb87; /* gray-200 */
     border-radius: 8px;
     padding: 10px 16px;
@@ -44,21 +44,21 @@
  
   
   /* Progress bar container */
-  .progress-container {
+  .progress-container1 {
     display: flex;
     flex-direction: column;
     gap: 2px;
     margin-bottom: 16px;
   }
   
-  .progress-bar-heading{
+  .progress-bar-heading1{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font: bold;
   }
 
-  .progress-bar {
+  .progress-bar1 {
     width: 100%;
     height: 12px;
     border: 1px solid transparent;
@@ -67,7 +67,7 @@
     position: relative;
   }
   
-  .progress-fill {
+  .progress-fill1 {
     position: absolute;
     background-color: #2563eb; /* blue-600 */
     width: 60%;
@@ -75,24 +75,24 @@
     border-radius: 8px;
   }
   
-  .status-text {
+  .status-text1 {
     margin-top: 2px;
     color: #2563eb; /* blue-600 */
   }
   
   /* Section */
-  .section {
+  .section1 {
     margin: 24px 0;
   }
   
-  .section-heading {
+  .section-heading1 {
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 16px;
   }
   
   /* Button styling */
-  .button {
+  .button1 {
     font-weight: 600;
     margin-top: 16px;
     cursor: pointer;
@@ -104,17 +104,17 @@
     transition-duration: 200ms;
   }
   
-  .button:hover {
+  .button1:hover {
     background-color: #dce0e9; /* hover:bg-gray-200 */
 }
   
-  .flex-container {
+  .flex-container1 {
     display: flex;
     flex-direction: column;
     gap: 8px;
   }
   
-  .center-align {
+  .center-align1 {
     display: flex;
     align-items: center;
     justify-content: center;
