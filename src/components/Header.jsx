@@ -4,16 +4,17 @@ import "./header.css";
 const Header = () => {
   return (
     <header className="header">
-      <div className="container">
-        <div className="logo">
-
-
-        </div>
-
-
-        <nav className="navbar">
-
-        </nav>
+      <div id="logo">
+        {" "}
+        <h3>App</h3>
+      </div>
+      <nav id="navbar">
+        <h3>For Parents</h3>
+        <h3>For chidren</h3>
+      </nav>
+      <div id="login">
+        <button>SignIn</button>
+        <button>LogIn</button>
       </div>
     </header>
   );

@@ -1,19 +1,18 @@
 import './App.css';
 import {Routes, Route} from "react-router-dom"
-
-function Header(){
-  return (
-    <p>This is a header</p>
-  )
-}
+import Header from './components/Header';
+import HomeBody from './components/HomeBody';
 
 function App() {
   return (
     <div className="App">
-      <p>This is a home page</p>
+      <Header />
+      {/* <p>This is a home page</p>
       <Routes>
-        <Route path='/header' element={<Header />}></Route>
-      </Routes>
+        {/* <Route path='/' element={<HomeBody />}></Route> */}
+        {/* <Route path='/tracking' element={<Tracking/>}></Route> 
+      </Routes> */}
+      <HomeBody/>
     </div>
   );
 }
