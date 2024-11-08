@@ -16,7 +16,7 @@ const Trackingpage = () => {
   return (
     <>
         
-        <div className="container">
+        <div className="container1">
       <h2 className="heading">Welcome Ella!</h2>
       <p className="subheading">Your weekly summary</p>
 
