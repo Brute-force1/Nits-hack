@@ -21,10 +21,7 @@ const HomeBody = () => {
       <div className="Cards">
         <h1>Why we need App</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-          libero placeat consectetur dolores aspernatur illum vitae ipsa maiores
-          impedit qui aliquam expedita quas inventore obcaecati dolorem rem
-          itaque numquam quasi.
+          Apps can offer features to block distractions by monitoring and restricting access to certain apps during work hours.
         </p>
         <div className="Card-img">
           <figcaption>
