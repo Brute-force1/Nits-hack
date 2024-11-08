@@ -1,37 +1,33 @@
 
-.container{
-    height: 400px;
-    width: 1050px;
-    border: 3px solid black;
-    border-radius: 10px;
-    margin-left: 230px;
+.Container{
     margin-top: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin-inline: auto;
+    gap: 6px;
 }
-.container img{
-    height: 400px;
-    width: 1045px;
+.Container img{
+    height: 395px;
+    width: 795px;
+    opacity: 0.9;
+    border-radius: 10px;
 }
-.container h2{
-    color: rgb(240, 4, 4);
-    position: relative;
-    top: -190px;
+.Container h2{
+    color: #2A3663;
     font-weight: bolder;
-    font-size: 25px;
-    z-index: 50;
-    text-shadow: 2px 2px 1px ; 
+    font-size: 48px;
+    display: flex;
+    justify-content: center; 
 }
-.container p{
-    color: rgb(97, 28, 200);
-    position: relative;
-    top: -180px;
+.Container div p{
     font-weight: bolder;
-    font-size: larger;
-    z-index: 20px;
 }
 .Cards{
     height: 400px;
-    width: 1050px;
-    margin-left: 230px;
+    width: 1250px;
+    margin-left: 100px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -52,11 +48,12 @@
 }
 .Card-img figcaption{
     height:500px;
-    width: 100px;
+    width: 300px;
 }
 .Card-img img{
-    height:200px;
-    width: 200px;
+    height:250px;
+    width: 300px;
+    border: 2px solid black;
 }
 .Card-img caption{
     margin-top: 10px;
