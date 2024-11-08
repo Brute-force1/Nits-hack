@@ -27,7 +27,7 @@
 .Cards{
     height: 400px;
     width: 1250px;
-    margin-left: 120px;
+    margin-left: 150px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
