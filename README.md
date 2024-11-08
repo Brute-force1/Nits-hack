@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Vercel Deploy link
+https://nits-hack.vercel.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
