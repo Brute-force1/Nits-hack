@@ -1,21 +1,33 @@
 import React from "react";
+import { navbar } from "../utils/index";
+import { Link } from "react-router-dom";
+import Button from "./Button";
 import "./header.css";
-import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header className="header">
-      <div id="logo">
-        {" "}
-        <h3>App</h3>
-      </div>
-      <nav id="navbar">
-        <Link to="/tracking">Track</Link>
-        <Link to="/reward">Reward</Link>
-      </nav>
-      <div id="login">
-        <button>SignIn</button>
-        <button>LogIn</button>
+      <div className="container--head">
+        <Link to="/" className="nav--logo">
+          <img src="" alt="" />
+          <span>Brute Force</span>
+        </Link>
+
+        <div className="">
+          <nav className="nav--bar">
+            {navbar.map((item) => (
+              <Link key={item.id} className="nav--link" to={item.link}>
+                {item.text}
+              </Link>
+            ))}
+          </nav>
+        </div>
+
+        <div className="nav--bar">
+          <Button>Sign Up</Button>
+
+          <Button>Log in</Button>
+        </div>
       </div>
     </header>
   );
